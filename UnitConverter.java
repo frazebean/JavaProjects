@@ -1,3 +1,5 @@
+// NOTE: This is simply a test code written to check if I did my exam correct.
+
 import java.util.*;
 public class UnitConverter
 {
