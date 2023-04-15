@@ -33,5 +33,7 @@ public class CreateSpaServices
 
         System.out.println("Second service details: ");
         System.out.println(secondService.getServiceDescription() + " $" + secondService.getPrice());
+
+        keyboard.close();
     }    
 }
