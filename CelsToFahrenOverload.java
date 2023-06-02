@@ -1,3 +1,8 @@
+// Author: Ajmel Muadz
+// Date created: 3/6/2023
+// License: Don't have time for that lol this is just basic university homework. Copy as you
+//          please bro.
+
 import java.util.*;
 
 public class CelsToFahrenOverload 
