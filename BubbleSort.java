@@ -7,7 +7,7 @@ public class BubbleSort
     public static void main(String[] args) 
     {
         Scanner input = new Scanner(System.in);
-        int[] array = new int[8], sortedArray;
+        int[] array = new int[8];
         int userInput;
 
         System.out.println("Hello. Please enter 8 integers to be sorted.\n");
@@ -19,7 +19,7 @@ public class BubbleSort
         }
 
         System.out.println("The array unsorted is: " + Arrays.toString(array));
-        sortedArray = bubbleSort(array);
+        bubbleSort(array);
         System.out.println("The array sorted is: " + Arrays.toString(array));
     }
 
