@@ -24,6 +24,8 @@ public class BubbleSort
         System.out.println("The array unsorted is: " + Arrays.toString(array));
         bubbleSort(array);
         System.out.println("The array sorted is: " + Arrays.toString(array));
+
+        input.close();
     }
 
     public static int[] bubbleSort(int[] pArray)

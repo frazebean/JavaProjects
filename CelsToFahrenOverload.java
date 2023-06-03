@@ -39,6 +39,8 @@ public class CelsToFahrenOverload
             // fahrenToCels() refers to two overloaded methods.
         }
         // No input validation needed as my assignment said I don't need to do it.
+
+        input.close();
     }
 
     // Two method belows are overloaded.
