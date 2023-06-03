@@ -159,7 +159,7 @@ public class Date
     {
         String dateString;
         
-        dateString = "Date is " + day + "/" + month + "/" + year;
+        dateString = day + "/" + month + "/" + year;
         return dateString;
     }
 
