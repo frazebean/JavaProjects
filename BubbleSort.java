@@ -1,4 +1,7 @@
 // CEO of not understanding the code I wrote.
+// AUTHOR: Ajmel Muadz
+// DATE CREATED: 3/6/2023
+// LICENSE: No license lol just use it if you want to.
 
 import java.util.*;
 
@@ -13,7 +16,7 @@ public class BubbleSort
         System.out.println("Hello. Please enter 8 integers to be sorted.\n");
         for(int i = 0; i < array.length; i++)
         {
-            System.out.print("Enter array " + (i+1) + ": ");
+            System.out.print("Enter integer " + (i+1) + ": ");
             userInput = input.nextInt();
             array[i] = userInput;
         }
@@ -31,7 +34,7 @@ public class BubbleSort
         {
             for(int i = 0; i <= (pArray.length - 1 - pass) - 1; i++)
             {
-                if(pArray[i] > pArray[i+1])
+                if(pArray[i] < pArray[i+1])
                 {
                     temp = pArray[i];
                     pArray[i] = pArray[i+1];
