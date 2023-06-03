@@ -1,3 +1,9 @@
+// This is a program that performs secondary sorting on dates. Secondary sorting is
+// basically when you sort multiple values. In the case of this program, it sorts
+// day, month and year of a date into the correct order. The sorting algorithm used in this
+// program is bubble sort. Insertion sort can also be used. Just don't use selection sort
+// as it does not retain the order of key-values.
+
 import java.util.*;
 
 public class SecondarySorting
